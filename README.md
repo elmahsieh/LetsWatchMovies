@@ -20,8 +20,11 @@ This project called Let’sWatchTV. It is an application that helps users explor
 ### API Information
 
 **API from The Movies Data Base (TMDB: https://www.themoviedb.org)**
+
 API 1. Top Rated Movies: https://api.themoviedb.org/3/movie/top_rated
+
 API 2. Upcoming Movies: https://api.themoviedb.org/3/movie/upcoming
+
 Personal API Key if necessary (not required to load LetsWatchTV): f30a516df866e8e39ffc019d1fcace2f
 
 ### Application Layout and Navigation
