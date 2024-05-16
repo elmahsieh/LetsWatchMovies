@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/headerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application Information"
+        android:fontFamily="@font/zillaslab_medium"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Name: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewVersionControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version Control: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewBuildDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build Date: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewBuildLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build Language: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewVersionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version Name: "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/textViewVersionCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version Code: "
+        android:textStyle="bold"/>
+</LinearLayout>

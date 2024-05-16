@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ehsieh2.letswatchtv.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_moviesFragment"
+            app:destination="@id/moviesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@+id/infoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_notepadFragment"
+            app:destination="@+id/notepadFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.ehsieh2.letswatchtv.fragments.MoviesFragment"
+        android:label="Movies"
+        tools:layout="@layout/fragment_movies">
+        <action
+            android:id="@+id/action_moviesFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+        <action
+            android:id="@+id/action_movieListFragment_to_popularMoviesFragment"
+            app:destination="@id/popularMoviesFragment" />
+
+        <action
+            android:id="@+id/action_movieListFragment_to_upcomingMoviesFragment"
+            app:destination="@id/upcomingMoviesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.ehsieh2.letswatchtv.fragments.MovieDetailsFragment"
+        android:label="Movie Details"
+        tools:layout="@layout/fragment_movie_details">
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.ehsieh2.letswatchtv.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.ehsieh2.letswatchtv.fragments.InfoFragment"
+        android:label="Application Information"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/popularMoviesFragment"
+        android:name="com.ehsieh2.letswatchtv.apiFragments.PopularMoviesFragment"
+        android:label="Popular Movies"
+        tools:layout="@layout/fragment_popular_movies">
+        <action
+            android:id="@+id/action_popularMoviesFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/upcomingMoviesFragment"
+        android:name="com.ehsieh2.letswatchtv.apiFragments.UpcomingMoviesFragment"
+        android:label="Upcoming Movies"
+        tools:layout="@layout/fragment_upcoming_movies">
+        <action
+            android:id="@+id/action_upcomingMoviesFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/notepadFragment"
+        android:name="com.ehsieh2.letswatchtv.fragments.NotepadFragment"
+        android:label="Notepad"
+        tools:layout="@layout/fragment_notepad">
+    </fragment>
+
+
+</navigation>
