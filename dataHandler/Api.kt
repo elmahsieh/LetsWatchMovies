@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv.dataHandler
-
 import com.ehsieh2.letswatchtv.Movie
 import com.ehsieh2.letswatchtv.MoviesResponse
 import retrofit2.Call

@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv.dataHandler
-
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Response

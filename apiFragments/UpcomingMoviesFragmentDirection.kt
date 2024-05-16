@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv.apiFragments
-
 import android.os.Bundle
 import androidx.navigation.NavDirections
 import com.ehsieh2.letswatchtv.R

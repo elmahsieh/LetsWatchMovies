@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv
-
 import android.app.AlertDialog
 import android.view.LayoutInflater
 import android.widget.RatingBar

@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv
-
 import androidx.recyclerview.widget.DiffUtil
 
 class MovieDiffCallback : DiffUtil.ItemCallback<Movie>() {

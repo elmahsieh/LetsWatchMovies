@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv
-
 import android.app.Application
 import android.content.Context.MODE_PRIVATE
 import androidx.lifecycle.AndroidViewModel

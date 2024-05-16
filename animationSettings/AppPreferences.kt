@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv.animationSettings
-
 import android.content.Context
 
 object AppPreferences {

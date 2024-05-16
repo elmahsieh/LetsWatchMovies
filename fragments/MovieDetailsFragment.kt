@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv.fragments
-
 import android.widget.ImageView
 import android.os.Bundle
 import android.view.LayoutInflater

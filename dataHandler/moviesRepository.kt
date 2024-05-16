@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv.dataHandler
-
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.ehsieh2.letswatchtv.Movie

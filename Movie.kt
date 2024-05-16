@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv
-
 import com.google.gson.annotations.SerializedName
 
 data class Movie(

@@ -1,5 +1,3 @@
-package com.ehsieh2.letswatchtv.dataHandler
-
 import android.content.Context
 import com.ehsieh2.letswatchtv.MoviesResponse
 import com.google.gson.Gson
